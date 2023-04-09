@@ -1,0 +1,26 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:#6c6b6b;
+}
+
+.main{
+  display: flex;
+  justify-content:center;
+}
+.list-box{
+  width: 960px;
+  height: 140px;
+}
+.list-box{
+  padding: 50px 0;
+}
+.list-item{
+  margin:20px;
+}
+
+.list-item:nth-child(odd){
+  background-color: #acabab
+}
